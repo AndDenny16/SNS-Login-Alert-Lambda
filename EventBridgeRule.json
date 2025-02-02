@@ -1,0 +1,10 @@
+{
+    "detail-type": ["AWS Console Sign In via CloudTrail"],
+    "source": ["aws.signin"],
+    "detail": {
+      "userIdentity": {
+        "type": ["IAMUser", "Root"],
+        "arn": ["ACCOUNT_ARN_1", "ACCOUNT_ARN_2"]
+      }
+    }
+  }
